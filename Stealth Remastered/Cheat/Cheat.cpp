@@ -48,7 +48,7 @@ void Cheat::Unload()
 	delete pD3DHook;
 	delete pKeyHook;
 	delete pRakClient;
-	delete pAimbot;
+	delete pReload;
 	delete pVisuals;
 
 	CreateThread(NULL, NULL, LPTHREAD_START_ROUTINE(UnloadThread), g_hModule, NULL, NULL);
